@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web制作カズ | Webサイト制作・コーディング</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">Kazu<span>.</span></a>
+      <nav class="header__nav">
+        <a href="#skills">スキル</a>
+        <a href="#works">制作物</a>
+        <a href="#flow">制作の流れ</a>
+        <a href="#price">料金</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--nav">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="#skills">スキル</a>
+      <a href="#works">制作物</a>
+      <a href="#flow">制作の流れ</a>
+      <a href="#price">料金</a>
+      <a href="#about">About</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+
+  <!-- ① ファーストビュー -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__text fade-in">
+        <p class="hero__label">Web Designer / Coder</p>
+        <h1 class="hero__title">
+          スピード納品・柔軟な修正対応で、<br>
+          <span>はじめての依頼も安心です。</span>
+        </h1>
+        <p class="hero__sub">HTML / CSS を使ったWebサイト制作を丁寧にお届けします。</p>
+        <div class="hero__btns">
+          <a href="#works" class="btn btn--primary">制作物を見る</a>
+          <a href="#contact" class="btn btn--outline">お問い合わせ</a>
+        </div>
+      </div>
+      <div class="hero__visual fade-in fade-in--delay">
+        <div class="hero__card">
+          <div class="hero__card-dot"></div>
+          <div class="hero__card-lines">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="hero__card-badge">納品完了 ✓</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ② スキル・使用技術 -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Skills</p>
+        <h2 class="section__title">使用技術</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M4 4l2.5 24L16 31l9.5-3L28 4H4z" fill="#E44D26"/><path d="M16 28.5V7H26.5L24.3 25.5 16 28.5z" fill="#F16529"/><path d="M16 13.5H10.5l.4 4H16v-4zM16 21.5l-4.5-1.2-.3-3.3H8l.6 6.5L16 26v-4.5z" fill="#fff"/><path d="M16 13.5v4h5l-.5 4-4.5 1.2v4.5l7.5-2.1.6-6.5-4.1.4V13.5H16z" fill="#ebebeb"/></svg>
+          </div>
+          <h3 class="skill-card__name">HTML5</h3>
+          <p class="skill-card__desc">マークアップ・セマンティック対応</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M4 4l2.5 24L16 31l9.5-3L28 4H4z" fill="#1572B6"/><path d="M16 28.5V7H26.5L24.3 25.5 16 28.5z" fill="#33A9DC"/><path d="M16 13.5H10.5l.4 4H16v-4zM16 21.5l-4.5-1.2-.3-3.3H8l.6 6.5L16 26v-4.5z" fill="#fff"/><path d="M16 13.5v4h5l-.5 4-4.5 1.2v4.5l7.5-2.1.6-6.5-4.1.4V13.5H16z" fill="#ebebeb"/></svg>
+          </div>
+          <h3 class="skill-card__name">CSS3</h3>
+          <p class="skill-card__desc">Flexbox・Grid・レスポンシブ対応</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 3C8.82 3 3 8.82 3 16s5.82 13 13 13 13-5.82 13-13S23.18 3 16 3z" fill="#21759B"/><path d="M16 5c-2.56 0-4.93.74-6.94 2.01 3.57.04 6.48 3 6.48 6.65 0 1.53-.52 2.94-1.38 4.05l3.98 10.92A10.97 10.97 0 0027 16c0-6.07-4.93-11-11-11z" fill="#21759B"/><path d="M5.56 11.37A10.97 10.97 0 005 16c0 4.7 2.94 8.73 7.13 10.3L6.2 11.78c-.22-.13-.43-.27-.64-.41z" fill="#fff" opacity=".3"/><path d="M16 5c-6.07 0-11 4.93-11 11 0 4.7 2.94 8.73 7.13 10.3l3.41-9.35c-.67-.94-1.07-2.09-1.07-3.32C14.47 10 17 7.39 20.1 7.01A10.96 10.96 0 0016 5z" fill="#fff" opacity=".5"/></svg>
+          </div>
+          <h3 class="skill-card__name">WordPress</h3>
+          <p class="skill-card__desc">テーマカスタマイズ・ページ制作</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 3C8.82 3 3 8.82 3 16s5.82 13 13 13 13-5.82 13-13S23.18 3 16 3z" fill="#181717"/><path d="M16 6a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0116 11.5c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0016 6z" fill="#fff"/></svg>
+          </div>
+          <h3 class="skill-card__name">GitHub Pages</h3>
+          <p class="skill-card__desc">成果物の公開・納品</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 3l-1.76 3.56L10 7.28l3 2.92-.7 4.12L16 12.1l3.7 2.22-.7-4.12 3-2.92-4.24-.72L16 3z" fill="#F24E1E"/><path d="M6 16a10 10 0 0020 0H6z" fill="#A259FF"/><path d="M26 16a10 10 0 00-20 0h20z" fill="#F24E1E"/><circle cx="16" cy="16" r="4" fill="#1ABCFE"/></svg>
+          </div>
+          <h3 class="skill-card__name">Figma</h3>
+          <p class="skill-card__desc">デザインカンプの確認・読み取り</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ 制作実績 -->
+  <section class="section works" id="works">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Works</p>
+        <h2 class="section__title">制作物</h2>
+      </div>
+      <div class="works__grid">
+        <article class="work-card">
+          <div class="work-card__thumb">
+            <div class="work-card__thumb-inner work-card__thumb--cafe">
+              <span>The Daily Cup</span>
+            </div>
+            <div class="work-card__overlay">
+              <a href="#" class="btn btn--sm">サイトを見る →</a>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <div class="work-card__tags">
+              <span class="tag">架空サイト</span>
+              <span class="tag">コーポレート</span>
+            </div>
+            <h3 class="work-card__title">The Daily Cup</h3>
+            <p class="work-card__meta">業種：カフェ・飲食店</p>
+            <p class="work-card__tech">使用技術：HTML / CSS / レスポンシブ対応</p>
+          </div>
+        </article>
+
+        <!-- 準備中カード -->
+        <article class="work-card work-card--soon">
+          <div class="work-card__thumb">
+            <div class="work-card__thumb-inner work-card__thumb--soon">
+              <span>Coming Soon</span>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <div class="work-card__tags">
+              <span class="tag tag--soon">準備中</span>
+            </div>
+            <h3 class="work-card__title">制作物 準備中</h3>
+            <p class="work-card__meta">近日公開予定</p>
+          </div>
+        </article>
+
+        <article class="work-card work-card--soon">
+          <div class="work-card__thumb">
+            <div class="work-card__thumb-inner work-card__thumb--soon">
+              <span>Coming Soon</span>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <div class="work-card__tags">
+              <span class="tag tag--soon">準備中</span>
+            </div>
+            <h3 class="work-card__title">制作物 準備中</h3>
+            <p class="work-card__meta">近日公開予定</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ 制作の流れ -->
+  <section class="section flow" id="flow">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Flow</p>
+        <h2 class="section__title">制作の流れ</h2>
+      </div>
+      <div class="flow__steps">
+        <div class="flow__step">
+          <div class="flow__step-num">01</div>
+          <div class="flow__step-body">
+            <h3>お問い合わせ・ヒアリング</h3>
+            <p>ご要望・目的・納期などをお聞きします。お気軽にご相談ください。</p>
+          </div>
+        </div>
+        <div class="flow__step">
+          <div class="flow__step-num">02</div>
+          <div class="flow__step-body">
+            <h3>お見積もり・ご契約</h3>
+            <p>内容を確認後、お見積もりをご提示します。ご納得いただいてからスタートします。</p>
+          </div>
+        </div>
+        <div class="flow__step">
+          <div class="flow__step-num">03</div>
+          <div class="flow__step-body">
+            <h3>制作開始</h3>
+            <p>コーディングを進め、途中経過をご報告します。疑問点はいつでもご質問ください。</p>
+          </div>
+        </div>
+        <div class="flow__step">
+          <div class="flow__step-num">04</div>
+          <div class="flow__step-body">
+            <h3>確認・修正</h3>
+            <p>ご確認いただき、修正対応を行います。細かいご要望にも柔軟に対応します。</p>
+          </div>
+        </div>
+        <div class="flow__step">
+          <div class="flow__step-num">05</div>
+          <div class="flow__step-body">
+            <h3>納品</h3>
+            <p>ファイル納品またはサーバーアップロードで完了です。納品後のフォローもお任せください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 料金・対応範囲 -->
+  <section class="section price" id="price">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">Price</p>
+        <h2 class="section__title">料金・対応範囲</h2>
+      </div>
+      <div class="price__grid">
+        <div class="price-card">
+          <h3 class="price-card__title">LP（1ページ）</h3>
+          <p class="price-card__price">¥15,000<span>〜</span></p>
+          <ul class="price-card__list">
+            <li>レスポンシブ対応</li>
+            <li>お問い合わせフォーム設置</li>
+            <li>修正2回まで無料</li>
+          </ul>
+        </div>
+        <div class="price-card price-card--featured">
+          <div class="price-card__badge">人気</div>
+          <h3 class="price-card__title">コーポレートサイト</h3>
+          <p class="price-card__price">¥30,000<span>〜</span></p>
+          <ul class="price-card__list">
+            <li>3〜5ページ構成</li>
+            <li>レスポンシブ対応</li>
+            <li>お問い合わせフォーム設置</li>
+            <li>修正3回まで無料</li>
+          </ul>
+        </div>
+        <div class="price-card">
+          <h3 class="price-card__title">部分修正・既存サイト</h3>
+          <p class="price-card__price">¥5,000<span>〜</span></p>
+          <ul class="price-card__list">
+            <li>既存サイトの修正・追加</li>
+            <li>デザイン変更対応</li>
+            <li>小規模な改修作業</li>
+          </ul>
+        </div>
+      </div>
+      <p class="price__note">※ご要望により料金が変動する場合があります。まずはお気軽にご相談ください。</p>
+    </div>
+  </section>
+
+  <!-- ⑥ About -->
+  <section class="section about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <div class="about__avatar">
+          <span>K</span>
+        </div>
+      </div>
+      <div class="about__body">
+        <div class="section__header section__header--left">
+          <p class="section__label">About</p>
+          <h2 class="section__title">自己紹介</h2>
+        </div>
+        <p class="about__text">
+          はじめまして、<strong>Web制作カズ</strong>と申します。<br>
+          HTML / CSS を使ったWebサイト制作を行っています。<br><br>
+          スピード納品と丁寧なコミュニケーションを大切に、お客様のご要望に柔軟に対応いたします。<br>
+          はじめてWebサイトを依頼される方も、どうぞお気軽にご相談ください。
+        </p>
+        <div class="about__tags">
+          <span>⚡ スピード納品</span>
+          <span>💬 丁寧な対応</span>
+          <span>🔄 柔軟な修正</span>
+          <span>📱 レスポンシブ対応</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ お問い合わせ -->
+  <section class="section contact" id="contact">
+    <div class="container contact__inner">
+      <div class="section__header">
+        <p class="section__label">Contact</p>
+        <h2 class="section__title">お問い合わせ</h2>
+        <p class="contact__desc">クラウドワークスからお気軽にご連絡ください。<br>通常24時間以内にご返信いたします。</p>
+      </div>
+      <a href="https://crowdworks.jp/" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+        クラウドワークスから依頼する →
+      </a>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__logo">Kazu<span>.</span></p>
+      <p class="footer__copy">© 2025 Web制作カズ</p>
+    </div>
+  </footer>
+
+  <script>
+    // ハンバーガーメニュー
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('is-open');
+      mobileMenu.classList.toggle('is-open');
+    });
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('is-open');
+        mobileMenu.classList.remove('is-open');
+      });
+    });
+
+    // スクロールアニメーション
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(el => {
+        if (el.isIntersecting) el.target.classList.add('is-visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.skill-card, .work-card, .flow__step, .price-card').forEach(el => {
+      observer.observe(el);
+    });
+
+    // ヘッダースクロール
+    window.addEventListener('scroll', () => {
+      document.querySelector('.header').classList.toggle('is-scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
