@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Cup | 心地よい一杯を、毎日に。</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__en">The Daily Cup</span>
+        <span class="logo__ja">ザ・デイリーカップ</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link is-active">Home</a>
+        <a href="menu.html" class="nav__link">Menu</a>
+        <a href="access.html" class="nav__link">Access</a>
+        <a href="#contact" class="nav__link nav__link--cta">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="access.html">Access</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ヒーロー -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="hero__circle hero__circle--1"></div>
+        <div class="hero__circle hero__circle--2"></div>
+        <div class="hero__grain"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Specialty Coffee &amp; Sweets</p>
+          <h1 class="hero__title">
+            心地よい一杯を、<br>
+            <em>毎日に。</em>
+          </h1>
+          <p class="hero__desc">
+            豆の産地にこだわり、丁寧に淹れたスペシャルティコーヒーと、<br>
+            季節の素材を活かした手作りスイーツをお届けします。
+          </p>
+          <div class="hero__actions">
+            <a href="menu.html" class="btn btn--primary">メニューを見る</a>
+            <a href="access.html" class="btn btn--ghost">アクセス</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__cup">
+            <div class="cup">
+              <div class="cup__steam">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="cup__body">
+                <div class="cup__liquid"></div>
+                <div class="cup__latte-art"></div>
+              </div>
+              <div class="cup__saucer"></div>
+            </div>
+          </div>
+          <div class="hero__badge">
+            <span class="hero__badge-num">Since</span>
+            <span class="hero__badge-year">2018</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- コンセプト -->
+    <section class="concept section">
+      <div class="container concept__inner">
+        <div class="concept__text reveal">
+          <p class="section__label">Our Concept</p>
+          <h2 class="section__title">一杯のコーヒーが、<br>あなたの日常を豊かにする。</h2>
+          <p class="concept__body">
+            The Daily Cupは、「毎日飲みたくなるコーヒー」をコンセプトに生まれたカフェです。
+            産地直送のスペシャルティコーヒー豆を、バリスタが一杯ずつ丁寧にドリップ。
+            忙しい日常の中にも、ほっとできる時間をお届けします。
+          </p>
+          <a href="menu.html" class="link-arrow">メニューを見る <span>→</span></a>
+        </div>
+        <div class="concept__img reveal reveal--delay">
+          <div class="concept__img-inner">
+            <div class="concept__img-placeholder">
+              <div class="img-beans">
+                <span>☕</span>
+              </div>
+            </div>
+          </div>
+          <div class="concept__tag">
+            <span>Specialty</span>
+            <span>Coffee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- おすすめメニュー -->
+    <section class="menu-preview section section--bg">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Featured Menu</p>
+          <h2 class="section__title">おすすめメニュー</h2>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-card__img menu-card__img--1">
+              <span>☕</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">ハンドドリップコーヒー</h3>
+              <p class="menu-card__desc">その日の豆を丁寧にドリップ。深みのある香りと透明感のある味わい。</p>
+              <p class="menu-card__price">¥<strong>650</strong></p>
+            </div>
+          </div>
+          <div class="menu-card reveal reveal--delay">
+            <div class="menu-card__img menu-card__img--2">
+              <span>🥛</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">カフェラテ</h3>
+              <p class="menu-card__desc">エスプレッソと濃厚なフォームミルクが織りなす、なめらかな一杯。</p>
+              <p class="menu-card__price">¥<strong>720</strong></p>
+            </div>
+          </div>
+          <div class="menu-card reveal reveal--delay2">
+            <div class="menu-card__img menu-card__img--3">
+              <span>🍰</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">本日のケーキ</h3>
+              <p class="menu-card__desc">毎朝手作りする季節のケーキ。コーヒーとの相性を考えて仕上げます。</p>
+              <p class="menu-card__price">¥<strong>580</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-preview__cta reveal">
+          <a href="menu.html" class="btn btn--primary">全メニューを見る</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- お知らせ -->
+    <section class="news section">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">News</p>
+          <h2 class="section__title">お知らせ</h2>
+        </div>
+        <ul class="news__list">
+          <li class="news__item reveal">
+            <time class="news__date">2025.04.01</time>
+            <span class="news__tag">新メニュー</span>
+            <p class="news__title">春の限定メニュー「桜ラテ」が登場しました。</p>
+          </li>
+          <li class="news__item reveal">
+            <time class="news__date">2025.03.15</time>
+            <span class="news__tag">お知らせ</span>
+            <p class="news__title">4月の営業時間変更についてのご案内。</p>
+          </li>
+          <li class="news__item reveal">
+            <time class="news__date">2025.03.01</time>
+            <span class="news__tag">イベント</span>
+            <p class="news__title">コーヒーワークショップを開催します。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- アクセス（簡易版） -->
+    <section class="access-preview section section--bg">
+      <div class="container access-preview__inner">
+        <div class="access-preview__text reveal">
+          <p class="section__label">Access</p>
+          <h2 class="section__title">お店へのアクセス</h2>
+          <ul class="access-preview__info">
+            <li>
+              <span class="access-icon">📍</span>
+              <span>東京都渋谷区〇〇町1-2-3</span>
+            </li>
+            <li>
+              <span class="access-icon">🕐</span>
+              <span>月〜金 8:00〜19:00 ／ 土日祝 9:00〜18:00</span>
+            </li>
+            <li>
+              <span class="access-icon">📞</span>
+              <span>03-1234-5678</span>
+            </li>
+          </ul>
+          <a href="access.html" class="btn btn--primary">詳しいアクセスを見る</a>
+        </div>
+        <div class="access-preview__map reveal reveal--delay">
+          <div class="map-placeholder">
+            <span>MAP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="contact section" id="contact">
+      <div class="container contact__inner">
+        <div class="reveal">
+          <p class="section__label">Contact</p>
+          <h2 class="section__title">お問い合わせ</h2>
+          <p class="contact__desc">ご予約・ご質問はお気軽にどうぞ。<br>営業時間内にお電話いただくか、下記フォームよりご連絡ください。</p>
+        </div>
+        <form class="contact-form reveal">
+          <div class="form-group">
+            <label for="name">お名前 <span class="required">必須</span></label>
+            <input type="text" id="name" placeholder="山田 太郎">
+          </div>
+          <div class="form-group">
+            <label for="email">メールアドレス <span class="required">必須</span></label>
+            <input type="email" id="email" placeholder="example@email.com">
+          </div>
+          <div class="form-group">
+            <label for="message">メッセージ <span class="required">必須</span></label>
+            <textarea id="message" rows="5" placeholder="ご質問・ご予約内容をご記入ください"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">送信する</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">The Daily Cup</p>
+        <p class="footer__tagline">心地よい一杯を、毎日に。</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="access.html">Access</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 The Daily Cup. ※このサイトは架空のカフェのポートフォリオ作品です。</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

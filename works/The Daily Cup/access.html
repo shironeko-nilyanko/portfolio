@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access | The Daily Cup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__en">The Daily Cup</span>
+        <span class="logo__ja">ザ・デイリーカップ</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="menu.html" class="nav__link">Menu</a>
+        <a href="access.html" class="nav__link is-active">Access</a>
+        <a href="index.html#contact" class="nav__link nav__link--cta">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="access.html">Access</a>
+      <a href="index.html#contact">お問い合わせ</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ページヘッダー -->
+    <div class="page-hero">
+      <div class="page-hero__bg"></div>
+      <div class="container page-hero__inner">
+        <p class="page-hero__label">Access</p>
+        <h1 class="page-hero__title">アクセス</h1>
+        <p class="page-hero__desc">渋谷駅から徒歩5分。路地裏の静かなカフェです。</p>
+      </div>
+    </div>
+
+    <!-- マップ・店舗情報 -->
+    <section class="section">
+      <div class="container access__inner">
+
+        <!-- マップ -->
+        <div class="access__map reveal">
+          <div class="map-large">
+            <div class="map-large__inner">
+              <span class="map-large__pin">📍</span>
+              <p>The Daily Cup</p>
+              <p class="map-large__sub">東京都渋谷区〇〇町1-2-3</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 店舗情報 -->
+        <div class="access__info reveal reveal--delay">
+          <p class="section__label">Store Info</p>
+          <h2 class="section__title">店舗情報</h2>
+
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th>店名</th>
+                <td>The Daily Cup（ザ・デイリーカップ）</td>
+              </tr>
+              <tr>
+                <th>住所</th>
+                <td>〒150-0001<br>東京都渋谷区〇〇町1-2-3</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>03-1234-5678</td>
+              </tr>
+              <tr>
+                <th>営業時間</th>
+                <td>
+                  平日：8:00〜19:00<br>
+                  土日祝：9:00〜18:00
+                </td>
+              </tr>
+              <tr>
+                <th>定休日</th>
+                <td>毎週水曜日</td>
+              </tr>
+              <tr>
+                <th>席数</th>
+                <td>18席（テラス席4席含む）</td>
+              </tr>
+              <tr>
+                <th>Wi-Fi</th>
+                <td>完備（無料）</td>
+              </tr>
+              <tr>
+                <th>お支払い</th>
+                <td>現金・各種クレジットカード・PayPay対応</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- アクセス方法 -->
+    <section class="section section--bg">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">How to Get Here</p>
+          <h2 class="section__title">アクセス方法</h2>
+        </div>
+        <div class="route-grid">
+          <div class="route-card reveal">
+            <div class="route-card__icon">🚃</div>
+            <h3 class="route-card__title">電車でお越しの方</h3>
+            <p class="route-card__desc">
+              渋谷駅（JR・東京メトロ・東急）より徒歩5分。<br>
+              ハチ公口を出て〇〇方面へ直進、〇〇通り沿い右手です。
+            </p>
+          </div>
+          <div class="route-card reveal reveal--delay">
+            <div class="route-card__icon">🚗</div>
+            <h3 class="route-card__title">お車でお越しの方</h3>
+            <p class="route-card__desc">
+              店舗専用駐車場はございません。<br>
+              近隣のコインパーキングをご利用ください。
+            </p>
+          </div>
+          <div class="route-card reveal reveal--delay2">
+            <div class="route-card__icon">🚌</div>
+            <h3 class="route-card__title">バスでお越しの方</h3>
+            <p class="route-card__desc">
+              渋谷駅〇〇バス停より「〇〇」行きに乗車、<br>
+              「〇〇前」バス停下車すぐ。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SNS -->
+    <section class="section">
+      <div class="container">
+        <div class="sns-block reveal">
+          <p class="section__label">Follow Us</p>
+          <h2 class="section__title">SNSでも発信中</h2>
+          <p class="sns-block__desc">毎日のコーヒーや季節のメニュー情報をInstagramで発信しています。<br>ぜひフォローしてください。</p>
+          <a href="#" class="btn btn--primary">@thedailycup をフォロー</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">The Daily Cup</p>
+        <p class="footer__tagline">心地よい一杯を、毎日に。</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="access.html">Access</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 The Daily Cup. ※このサイトは架空のカフェのポートフォリオ作品です。</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

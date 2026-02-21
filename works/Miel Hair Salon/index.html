@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miel Hair Salon | 自然と調和する、あなたらしさへ。</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__main">Miel</span>
+        <span class="logo__sub">Hair Salon</span>
+      </a>
+      <nav class="nav">
+        <a href="#concept" class="nav__link">Concept</a>
+        <a href="#menu" class="nav__link">Menu</a>
+        <a href="#staff" class="nav__link">Staff</a>
+        <a href="#access" class="nav__link">Access</a>
+        <a href="#contact" class="btn btn--nav">ご予約</a>
+      </nav>
+      <button class="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <a href="#concept">Concept</a>
+      <a href="#menu">Menu</a>
+      <a href="#staff">Staff</a>
+      <a href="#access">Access</a>
+      <a href="#contact">ご予約</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ① ヒーロー -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+        <div class="hero__leaves">
+          <span class="leaf leaf--1">🌿</span>
+          <span class="leaf leaf--2">🌱</span>
+          <span class="leaf leaf--3">🌿</span>
+        </div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Natural Hair Salon in Tokyo</p>
+          <h1 class="hero__title">
+            自然と調和する、<br>
+            <em>あなたらしさへ。</em>
+          </h1>
+          <p class="hero__desc">
+            オーガニックカラーと植物由来のトリートメントで、<br>
+            髪と地球にやさしいヘアスタイルをご提案します。
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">無料カウンセリング予約</a>
+            <a href="#menu" class="btn btn--ghost">メニューを見る</a>
+          </div>
+          <div class="hero__badges">
+            <div class="badge">
+              <span class="badge__icon">🌿</span>
+              <span class="badge__text">オーガニックカラー</span>
+            </div>
+            <div class="badge">
+              <span class="badge__icon">✨</span>
+              <span class="badge__text">ダメージレス</span>
+            </div>
+            <div class="badge">
+              <span class="badge__icon">💚</span>
+              <span class="badge__text">植物由来成分</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__img-wrap">
+            <div class="hero__img-placeholder">
+              <span>✂️</span>
+              <p>Organic Hair Care</p>
+            </div>
+            <div class="hero__img-tag">
+              <span>No.1</span>
+              <span>口コミ評価</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② コンセプト -->
+    <section class="concept section" id="concept">
+      <div class="container">
+        <div class="concept__inner">
+          <div class="concept__visual reveal">
+            <div class="concept__img">
+              <span>🌱</span>
+            </div>
+            <div class="concept__leaf-deco">🍃</div>
+          </div>
+          <div class="concept__text reveal reveal--delay">
+            <p class="section__label">Our Concept</p>
+            <h2 class="section__title">髪も、心も、<br>自然体でいられる場所へ。</h2>
+            <p class="concept__body">
+              Mielは「自然の恵みで、本来の美しさを引き出す」をコンセプトに生まれたヘアサロンです。
+              化学薬品を極力使わないオーガニックカラーと、植物エキス配合のトリートメントで、
+              髪へのダメージを最小限に抑えながら、あなたらしいスタイルをご提案します。
+            </p>
+            <p class="concept__body">
+              サロン内は木と植物に囲まれた落ち着いた空間。
+              施術中は、ゆっくりと自分だけの時間をお過ごしください。
+            </p>
+            <div class="concept__features">
+              <div class="feature">
+                <span class="feature__icon">🌿</span>
+                <div>
+                  <h4>オーガニックカラー</h4>
+                  <p>植物由来の染料を使用。頭皮への負担を軽減します。</p>
+                </div>
+              </div>
+              <div class="feature">
+                <span class="feature__icon">💧</span>
+                <div>
+                  <h4>ノンシリコントリートメント</h4>
+                  <p>髪本来の質感を活かす、自然派ケアを提供します。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ メニュー -->
+    <section class="menu section section--bg" id="menu">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Menu &amp; Price</p>
+          <h2 class="section__title">メニュー・料金</h2>
+          <p class="section__desc">すべてのメニューにカウンセリングが含まれています。</p>
+        </div>
+        <div class="menu__grid">
+          <div class="menu-card reveal">
+            <div class="menu-card__icon">✂️</div>
+            <h3 class="menu-card__name">カット</h3>
+            <p class="menu-card__desc">骨格・髪質・ライフスタイルに合わせたカスタムカット。</p>
+            <p class="menu-card__price">¥<strong>6,600</strong><span>〜</span></p>
+          </div>
+          <div class="menu-card reveal reveal--delay">
+            <div class="menu-card__icon">🎨</div>
+            <h3 class="menu-card__name">オーガニックカラー</h3>
+            <p class="menu-card__desc">植物由来の染料でやさしく染める、ダメージレスカラー。</p>
+            <p class="menu-card__price">¥<strong>9,900</strong><span>〜</span></p>
+          </div>
+          <div class="menu-card reveal reveal--delay2">
+            <div class="menu-card__icon">✨</div>
+            <h3 class="menu-card__name">トリートメント</h3>
+            <p class="menu-card__desc">植物エキス配合の集中ケアで、うるつや髪へ。</p>
+            <p class="menu-card__price">¥<strong>4,400</strong><span>〜</span></p>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card__icon">🌊</div>
+            <h3 class="menu-card__name">縮毛矯正</h3>
+            <p class="menu-card__desc">やさしい成分でクセを伸ばす、低ダメージストレート。</p>
+            <p class="menu-card__price">¥<strong>18,700</strong><span>〜</span></p>
+          </div>
+          <div class="menu-card reveal reveal--delay">
+            <div class="menu-card__icon">💆</div>
+            <h3 class="menu-card__name">ヘッドスパ</h3>
+            <p class="menu-card__desc">頭皮の血行を促進する至福のスカルプケア。</p>
+            <p class="menu-card__price">¥<strong>5,500</strong><span>〜</span></p>
+          </div>
+          <div class="menu-card reveal reveal--delay2">
+            <div class="menu-card__icon">💍</div>
+            <h3 class="menu-card__name">ブライダルセット</h3>
+            <p class="menu-card__desc">特別な日のために。カウンセリングから丁寧にご対応。</p>
+            <p class="menu-card__price">¥<strong>22,000</strong><span>〜</span></p>
+          </div>
+        </div>
+        <p class="menu__note reveal">※ 表示価格はすべて税込みです。髪の長さ・状態によって料金が変わる場合があります。</p>
+      </div>
+    </section>
+
+    <!-- ④ スタッフ -->
+    <section class="staff section" id="staff">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Our Staff</p>
+          <h2 class="section__title">スタッフ紹介</h2>
+        </div>
+        <div class="staff__grid">
+          <div class="staff-card reveal">
+            <div class="staff-card__avatar">
+              <span>👩</span>
+            </div>
+            <h3 class="staff-card__name">Yuki Tanaka</h3>
+            <p class="staff-card__role">オーナースタイリスト</p>
+            <p class="staff-card__bio">オーガニックケアの専門家として15年のキャリア。植物の力で髪を美しくすることに情熱を持つ。</p>
+            <div class="staff-card__tags">
+              <span>カラー</span><span>トリートメント</span><span>ブライダル</span>
+            </div>
+          </div>
+          <div class="staff-card reveal reveal--delay">
+            <div class="staff-card__avatar">
+              <span>👨</span>
+            </div>
+            <h3 class="staff-card__name">Kenji Mori</h3>
+            <p class="staff-card__role">スタイリスト</p>
+            <p class="staff-card__bio">骨格に合わせたカットが得意。メンズスタイルから女性のショートまで幅広く対応。</p>
+            <div class="staff-card__tags">
+              <span>カット</span><span>縮毛矯正</span><span>メンズ</span>
+            </div>
+          </div>
+          <div class="staff-card reveal reveal--delay2">
+            <div class="staff-card__avatar">
+              <span>👩</span>
+            </div>
+            <h3 class="staff-card__name">Saki Ito</h3>
+            <p class="staff-card__role">スタイリスト</p>
+            <p class="staff-card__bio">トレンドを取り入れながら、その方の個性を引き出すスタイル提案が得意。</p>
+            <div class="staff-card__tags">
+              <span>カラー</span><span>パーマ</span><span>ヘアセット</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ お客様の声 -->
+    <section class="reviews section section--bg">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Reviews</p>
+          <h2 class="section__title">お客様の声</h2>
+        </div>
+        <div class="reviews__grid">
+          <div class="review-card reveal">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">「オーガニックカラーを初めて体験しました。頭皮が全然痒くならなくて感動！仕上がりもツヤツヤで大満足です。」</p>
+            <p class="review-card__author">— M.K. 30代女性</p>
+          </div>
+          <div class="review-card reveal reveal--delay">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">「カウンセリングがとても丁寧で、自分でも気づかなかった髪の悩みを解決してもらいました。また来ます！」</p>
+            <p class="review-card__author">— A.T. 20代女性</p>
+          </div>
+          <div class="review-card reveal reveal--delay2">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">「店内がとても落ち着いた雰囲気で、施術中もリラックスできました。ヘッドスパも最高でした。」</p>
+            <p class="review-card__author">— R.S. 40代女性</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ アクセス -->
+    <section class="access section" id="access">
+      <div class="container access__inner">
+        <div class="access__map reveal">
+          <div class="map-placeholder">
+            <span>📍</span>
+            <p>Miel Hair Salon</p>
+            <p class="map-sub">東京都目黒区〇〇町2-3-4</p>
+          </div>
+        </div>
+        <div class="access__info reveal reveal--delay">
+          <p class="section__label">Access</p>
+          <h2 class="section__title">アクセス</h2>
+          <ul class="access__list">
+            <li>
+              <span class="access__icon">📍</span>
+              <span>東京都目黒区〇〇町2-3-4</span>
+            </li>
+            <li>
+              <span class="access__icon">🚃</span>
+              <span>目黒駅より徒歩7分</span>
+            </li>
+            <li>
+              <span class="access__icon">🕐</span>
+              <div>
+                <p>火〜土 10:00〜20:00</p>
+                <p>日・祝 10:00〜18:00</p>
+                <p>定休日：月曜日</p>
+              </div>
+            </li>
+            <li>
+              <span class="access__icon">📞</span>
+              <span>03-5678-9012</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑦ 予約・お問い合わせ -->
+    <section class="contact section section--green" id="contact">
+      <div class="container contact__inner">
+        <div class="reveal">
+          <p class="section__label">Reservation</p>
+          <h2 class="section__title">ご予約・お問い合わせ</h2>
+          <p class="contact__desc">初回カウンセリングは無料です。お気軽にご連絡ください。</p>
+        </div>
+        <form class="contact-form reveal">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">お名前 <span class="required">必須</span></label>
+              <input type="text" id="name" placeholder="山田 花子">
+            </div>
+            <div class="form-group">
+              <label for="tel">電話番号</label>
+              <input type="tel" id="tel" placeholder="090-1234-5678">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">メールアドレス <span class="required">必須</span></label>
+            <input type="email" id="email" placeholder="example@email.com">
+          </div>
+          <div class="form-group">
+            <label for="menu">ご希望メニュー</label>
+            <select id="menu">
+              <option value="">選択してください</option>
+              <option>カット</option>
+              <option>オーガニックカラー</option>
+              <option>トリートメント</option>
+              <option>縮毛矯正</option>
+              <option>ヘッドスパ</option>
+              <option>その他・カウンセリング希望</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">ご要望・ご質問</label>
+            <textarea id="message" rows="4" placeholder="髪のお悩みやご希望などをお気軽にどうぞ"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">送信する</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">Miel Hair Salon</p>
+        <p class="footer__tagline">自然と調和する、あなたらしさへ。</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#concept">Concept</a>
+        <a href="#menu">Menu</a>
+        <a href="#staff">Staff</a>
+        <a href="#access">Access</a>
+        <a href="#contact">ご予約</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Miel Hair Salon. ※このサイトは架空のサロンのポートフォリオ作品です。</p>
+    </div>
+  </footer>
+
+  <script>
+    // ヘッダースクロール
+    window.addEventListener('scroll', () => {
+      document.querySelector('.header').classList.toggle('is-scrolled', window.scrollY > 60);
+    });
+
+    // ハンバーガー
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    hamburger?.addEventListener('click', () => {
+      hamburger.classList.toggle('is-open');
+      mobileMenu.classList.toggle('is-open');
+      document.body.style.overflow = mobileMenu.classList.contains('is-open') ? 'hidden' : '';
+    });
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('is-open');
+        mobileMenu.classList.remove('is-open');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // スクロールアニメーション
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(el => { if (el.isIntersecting) el.target.classList.add('is-visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
